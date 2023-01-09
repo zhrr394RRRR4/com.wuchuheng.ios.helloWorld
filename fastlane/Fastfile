@@ -105,6 +105,12 @@ platform :ios do
     )
 
     increment_build_number(xcodeproj: "wuchuheng.xcodeproj")
+    commit_version_bump(
+      message: "ci: Version Bump",
+      xcodeproj: "wuchuheng.xcodeproj",
+      force: true,
+    )
+    push_to_git_remote
 #     build_app(scheme: "wuchuheng")
 
 #     gym(
@@ -130,8 +136,20 @@ platform :ios do
 #       notify_external_testers: false,
 #       ipa: "./wuchuheng.ipa"
 #     )
-    build_app
-    upload_to_testflight(skip_waiting_for_build_processing: true)
+  build_app(
+    scheme: "wuchuheng",
+    configuration: "Release",
+    export_xcargs: "-allowProvisioningUpdates",
+  )
+
+  deliver(
+      api_key: api_key,
+      force: true, # Skip HTMl report verification
+      skip_screenshots: true,
+      skip_metadata: true,
+      precheck_include_in_app_purchases: false,
+      submit_for_review: false,
+  )
     delete_temp_keychain(keychain_name)
   end
 end

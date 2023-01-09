@@ -5,47 +5,44 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000272">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000182">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: app_store_connect_api_key" time="0.011791">
+      <testcase classname="fastlane.lanes" name="1: app_store_connect_api_key" time="0.00229">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: delete_keychain" time="0.025225">
+      <testcase classname="fastlane.lanes" name="2: delete_keychain" time="0.011775">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: create_keychain" time="0.106994">
+      <testcase classname="fastlane.lanes" name="3: create_keychain" time="0.065302">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: match" time="2.590082">
+      <testcase classname="fastlane.lanes" name="4: match" time="1.978402">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: increment_build_number" time="1.211373">
+      <testcase classname="fastlane.lanes" name="5: increment_build_number" time="0.606165">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: gym" time="23.937049">
+      <testcase classname="fastlane.lanes" name="6: build_app" time="16.884758">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: pilot" time="35.690423">
+      <testcase classname="fastlane.lanes" name="7: upload_to_testflight" time="44.437848">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="8: delete_keychain" time="0.028665">
+          <failure message="/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:134:in `block (2 levels) in parsing_binding'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/Bob/.rbenv/versions/2.7.6/lib/ruby/gems/2.7.0/gems/fastlane-2.211.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/Bob/.rbenv/versions/2.7.6/bin/fastlane:23:in `load'&#10;/Users/Bob/.rbenv/versions/2.7.6/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/Bob/.rbenv/versions/2.7.6/bin/ruby_executable_hooks:22:in `eval'&#10;/Users/Bob/.rbenv/versions/2.7.6/bin/ruby_executable_hooks:22:in `&lt;main&gt;'&#10;&#10;Error uploading ipa file: &#10; [Application Loader Error Output]: Error uploading '/var/folders/p_/6pyym7vs6sqb8x1gkhgprn5m0000gn/T/1dd78935-ae0e-47c7-81cd-ae96f9ebd356.ipa'.&#10;[Application Loader Error Output]: The provided entity includes an attribute with a value that has already been used The bundle version must be higher than the previously uploaded version: ‘41’. (ID: 5eb1d9b8-d3e3-41f8-b8e0-77f0a18af45c) (-19232)&#10;[Application Loader Error Output]: The call to the altool completed with a non-zero exit status: 1. This indicates a failure." />
         
       </testcase>
     
