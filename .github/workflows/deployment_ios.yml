@@ -38,9 +38,6 @@ jobs:
           DEVELOPER_APP_ID="${{ secrets.DEVELOPER_APP_ID }}"
           EOL
           cat >> $envFile  <<EOL
-          PROVISIONING_PROFILE_SPECIFIER="${{ secrets.PROVISIONING_PROFILE_SPECIFIER }}"
-          EOL
-          cat >> $envFile  <<EOL
           MATCH_PASSWORD="${{ secrets.MATCH_PASSWORD }}"
           EOL
           cat >> $envFile  <<EOL
