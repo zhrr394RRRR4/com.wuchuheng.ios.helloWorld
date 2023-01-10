@@ -35,9 +35,6 @@ jobs:
           APP_IDENTIFIER="${{ secrets.APP_IDENTIFIER }}"
           EOL
           cat >> $envFile  <<EOL
-          DEVELOPER_APP_ID="${{ secrets.DEVELOPER_APP_ID }}"
-          EOL
-          cat >> $envFile  <<EOL
           MATCH_PASSWORD="${{ secrets.MATCH_PASSWORD }}"
           EOL
           cat >> $envFile  <<EOL
