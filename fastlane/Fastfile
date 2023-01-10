@@ -25,14 +25,14 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
    if ENV['CI']
-#         create_keychain(
-#             name: ENV["TEMP_KEYCHAIN_USER"],
-#             password: ENV["MATCH_PASSWORD"],
-#             default_keychain: true,
-#             unlock: true,
-#             timeout: 3600,
-#             lock_when_sleeps: false
-#         )
+        create_keychain(
+            name: ENV["TEMP_KEYCHAIN_USER"],
+            password: ENV["MATCH_PASSWORD"],
+            default_keychain: true,
+            unlock: true,
+            timeout: 3600,
+            lock_when_sleeps: false
+        )
 
         match(
             keychain_name: ENV["TEMP_KEYCHAIN_USER"],
